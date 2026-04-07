@@ -18,8 +18,12 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
         builder.Property(o => o.Status)
             .IsRequired();
 
-        builder.HasMany(typeof(OrderItem), "_items")
+        builder.HasMany(o => o.Items)
             .WithOne()
             .OnDelete(DeleteBehavior.Cascade);
+
+        builder.Metadata
+            .FindNavigation(nameof(Order.Items))!
+            .SetPropertyAccessMode(PropertyAccessMode.Field);
     }
 }
