@@ -30,6 +30,9 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddControllers();
 
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssembly(typeof(CreateOrderHandler).Assembly));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
