@@ -13,3 +13,4 @@ node_modules/
 *.Tests.AssemblyInfo.cs
 *.cache
 *.editorconfig
+OrderService.Tests/obj/Debug/net8.0/OrderService.Tests.AssemblyInfoInputs.cache
