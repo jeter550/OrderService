@@ -1,0 +1,17 @@
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Infrastructure.deps.json
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Infrastructure.runtimeconfig.json
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Infrastructure.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Infrastructure.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Domain.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.AssemblyInfo.cs
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderSer.30472D0A.Up2Date
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\refint\OrderService.Infrastructure.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\OrderService.Infrastructure.genruntimeconfig.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Infrastructure\obj\Debug\net8.0\ref\OrderService.Infrastructure.dll

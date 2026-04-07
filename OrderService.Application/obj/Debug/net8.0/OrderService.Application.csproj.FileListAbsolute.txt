@@ -1,0 +1,15 @@
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.deps.json
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Application.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Domain.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\bin\Debug\net8.0\OrderService.Domain.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.csproj.AssemblyReference.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.AssemblyInfoInputs.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.AssemblyInfo.cs
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.csproj.CoreCompileInputs.cache
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderSer.7EAAA39B.Up2Date
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\refint\OrderService.Application.dll
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\OrderService.Application.pdb
+C:\Users\jeter\Documents\Projetos\OrderService\OrderService.Application\obj\Debug\net8.0\ref\OrderService.Application.dll
