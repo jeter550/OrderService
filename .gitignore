@@ -6,8 +6,10 @@ obj/
 *.db
 *.txt
 *.nupkg
-bin/
-obj/
 *.user
 appsettings.Development.json
 node_modules/
+*.assets.cache
+*.Tests.AssemblyInfo.cs
+*.cache
+*.editorconfig
