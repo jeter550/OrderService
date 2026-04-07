@@ -15,7 +15,7 @@ public class Order
     private readonly List<OrderItem> _items = new();
     public IReadOnlyCollection<OrderItem> Items => _items;
 
-    private Order() { } // EF
+    private Order() { }
 
     public Order(Guid customerId, string currency)
     {
