@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jeter\\Documents\\projetos\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\jeter\\Documents\\Projetos\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
       "projectName": "OrderService.Domain",
-      "projectPath": "C:\\Users\\jeter\\Documents\\projetos\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
+      "projectPath": "C:\\Users\\jeter\\Documents\\Projetos\\OrderService\\OrderService.Domain\\OrderService.Domain.csproj",
       "packagesPath": "C:\\Users\\jeter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jeter\\Documents\\projetos\\OrderService\\OrderService.Domain\\obj\\",
+      "outputPath": "C:\\Users\\jeter\\Documents\\Projetos\\OrderService\\OrderService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jeter\\AppData\\Roaming\\NuGet\\NuGet.Config"

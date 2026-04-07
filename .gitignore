@@ -4,6 +4,7 @@ obj/
 *.user
 *.suo
 *.db
+*.txt
 *.nupkg
 bin/
 obj/
