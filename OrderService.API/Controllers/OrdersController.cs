@@ -1,5 +1,7 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using OrderService.Application.Commands;
+using OrderService.Application.Queries;
 namespace OrderService.API.Controllers;
 
 [ApiController]
@@ -32,5 +34,12 @@ public class OrdersController : ControllerBase
     {
         await _mediator.Send(new CancelOrderCommand(id));
         return Ok();
+    }
+
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var result = await _mediator.Send(new GetOrderByIdQuery(id));
+        return Ok(result);
     }
 }
