@@ -21,6 +21,7 @@ public class OrderRepository : IOrderRepository
     {
         return await _context.Orders
             .Include("_items")
+            .AsNoTracking()
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 
