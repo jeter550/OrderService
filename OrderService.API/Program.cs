@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using OrderService.Application.Handlers;
 using OrderService.Application.Interfaces;
-using OrderService.Infrastructure;
 using OrderService.Infrastructure.Persistence;
 using OrderService.Infrastructure.Seek;
 
