@@ -1,6 +1,7 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
@@ -17,7 +18,8 @@ public class AuthController : ControllerBase
         _configuration = configuration;
     }
 
-    [HttpPost("auth/token")]
+    [AllowAnonymous]
+    [HttpPost("token")]
     public IActionResult Token()
     {
         var jwtSettings = _configuration.GetSection("Jwt");
