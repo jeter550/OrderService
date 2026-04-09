@@ -1,6 +1,6 @@
 # OrderService
 
-API de pedidos construída em .NET 8 com arquitetura em camadas, persistência em PostgreSQL e uso de MediatR para organizar comandos e consultas.
+API de pedidos construída em .NET 8 com arquitetura em limpa e principios do SOLID, persistência em PostgreSQL e uso de MediatR para organizar comandos e consultas.
 
 ## Estrutura das camadas
 
@@ -123,6 +123,7 @@ Ao iniciar, a aplicação:
 ## Dados iniciais
 
 Na subida da aplicação, o seed cadastra alguns produtos automaticamente para facilitar testes locais.
+Para executar os endpoins e necessário autenticar na api endpoint auth/token que vai retornar o token que deve ser enviada na área de segurança da api, simulando um cenário real de autenticação e autorização
 
 ## Executando os testes
 
