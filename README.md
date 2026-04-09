@@ -2,7 +2,7 @@
 
 # OrderService
 
-API de pedidos construída em .NET 8 com arquitetura em limpa e principios do SOLID, persistência em PostgreSQL e uso de MediatR para organizar comandos e consultas.
+API de pedidos construída em .NET 8 com arquitetura limpa aplicando principios do SOLID, persistência em PostgreSQL e uso de MediatR para organizar comandos e consultas.
 
 ## Estrutura das camadas
 
