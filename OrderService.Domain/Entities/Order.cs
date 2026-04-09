@@ -11,9 +11,8 @@ public class Order
     public string Currency { get; private set; }
     public decimal Total { get; private set; }
     public DateTime CreatedAt { get; private set; }
-
-    private readonly List<OrderItem> _items = new();
-    public IReadOnlyCollection<OrderItem> Items => _items;
+    
+    public List<OrderItem> Items { get; private set; } = new List<OrderItem>();
 
     private Order() { }
 
@@ -35,7 +34,7 @@ public class Order
     public void AddItem(Guid productId, decimal unitPrice, int quantity)
     {
         var item = new OrderItem(productId, unitPrice, quantity);
-        _items.Add(item);
+        Items.Add(item);
 
         RecalculateTotal();
     }
@@ -61,6 +60,6 @@ public class Order
 
     private void RecalculateTotal()
     {
-        Total = _items.Sum(x => x.Total);
+        Total = Items.Sum(x => x.Total);
     }
 }

@@ -7,6 +7,7 @@ using OrderService.Application.Handlers;
 using OrderService.Application.Interfaces;
 using OrderService.Infrastructure;
 using OrderService.Infrastructure.Persistence;
+using OrderService.Infrastructure.Seek;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -77,6 +78,9 @@ using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     db.Database.Migrate();
+
+    await DbSeeder.SeedAsync(db);
+
 }
 
 app.Run();

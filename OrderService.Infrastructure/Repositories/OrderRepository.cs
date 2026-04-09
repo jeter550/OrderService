@@ -20,8 +20,7 @@ public class OrderRepository : IOrderRepository
     public async Task<Order?> GetById(Guid id)
     {
         return await _context.Orders
-            .Items
-            .AsNoTracking()
+            .Include(o => o.Items)
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 
