@@ -1,3 +1,5 @@
+# DEMONSTRAÇÃO DE ARQUITETURA LIMPA
+
 # OrderService
 
 API de pedidos construída em .NET 8 com arquitetura em limpa e principios do SOLID, persistência em PostgreSQL e uso de MediatR para organizar comandos e consultas.
