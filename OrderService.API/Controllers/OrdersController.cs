@@ -2,6 +2,7 @@ using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Application.Commands;
+using OrderService.Application.DTOs;
 using OrderService.Application.Queries;
 namespace OrderService.API.Controllers;
 
@@ -42,6 +43,20 @@ public class OrdersController : ControllerBase
     public async Task<IActionResult> GetById(Guid id)
     {
         var result = await _mediator.Send(new GetOrderByIdQuery(id));
+        return Ok(result);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> List([FromQuery] ListOrdersRequestDto request)
+    {
+        var result = await _mediator.Send(new ListOrdersQuery(
+            request.CustomerId,
+            request.Status,
+            request.From,
+            request.To,
+            request.Page,
+            request.PageSize));
+
         return Ok(result);
     }
 }
