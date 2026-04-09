@@ -120,10 +120,6 @@ Ao iniciar, a aplicação:
 
 - `POST /products`
 
-### Health check
-
-- `GET /health/db`
-
 ## Dados iniciais
 
 Na subida da aplicação, o seed cadastra alguns produtos automaticamente para facilitar testes locais.
